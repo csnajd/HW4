@@ -138,8 +138,8 @@ footer {
 }
 
 .project-img {
-    width: 300px;
-    height: 200px;
+     width: 500px;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #c9a87c;
