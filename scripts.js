@@ -1,4 +1,4 @@
-
+// Contact Page
 document.querySelector('form')?.addEventListener('submit', function(e) {
     e.preventDefault();
     var name = document.getElementById('name').value;
@@ -10,6 +10,7 @@ document.querySelector('form')?.addEventListener('submit', function(e) {
     }
 });
 
+// Projects Page
 function toggleDesc(id) {
     var desc = document.getElementById(id);
     if (desc.style.display === 'none') {
@@ -19,7 +20,7 @@ function toggleDesc(id) {
     }
 }
 
-
+// CV Page
 var quote = document.getElementById('quote');
 if (quote) {
     quote.addEventListener('mouseover', function() {
@@ -34,7 +35,7 @@ if (quote) {
     });
 }
 
-
+// Homepage
 window.addEventListener('load', function() {
     var footer = document.querySelector('footer');
     if (footer) {
