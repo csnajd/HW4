@@ -136,11 +136,12 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
 }
-
 .project-img {
-    width: 700px;
-    height: 250px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 400px;   
+    max-height: 300px;   
+    object-fit: contain; 
+    height: auto;
     border-radius: 8px;
     border: 2px solid #c9a87c;
     display: block;
